@@ -5,6 +5,8 @@ created by Ali Rahimi.
 
 after cloning, you need to download appium server,using python3 and then using MainModule.py to run test scenarios.
 
+** if you are using than one adb devices ,so dont forgot to change device name in Desired capabilities in Scenarios **
+
 appium server for linux :
 
 https://github.com/appium/appium-desktop/releases/download/v1.15.1/Appium-linux-1.15.1.AppImage
