@@ -56,9 +56,9 @@ class EditSubjectAndBody(Subscenario):
                     EC.visibility_of_element_located((By.XPATH, xpath.UPDATE_ISSUE_SUBMIT_BUTTON)))
                 submit_element.click()
                 if self.appium_driver.find_element(By.XPATH, xpath.DESCRIPTION_HEADER_TITLE):
-                    self.appium_driver.find_element(By.XPATH, xpath.DESCRIPTION_HEADER_TITLE).get_attribute('text')
-                    print("new Subject : {}".format(self.old_subject))
-                    print("new Description : {}".format(self.old_description))
+
+                    print("new Subject : {}".format(self.new_subject))
+                    print("new Description : {}".format(self.new_description))
                     self.appium_driver.back()
                     print("backing to main menu.")
 
