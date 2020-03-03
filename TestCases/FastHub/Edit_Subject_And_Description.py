@@ -37,7 +37,7 @@ class EditSubjectAndDescription(TestScenarios):
         self.appium_driver = webdriver.Remote(self.remote_url, self.desired_caps)
         self.appium_driver.implicitly_wait(time_to_wait=self.timeout)
         self.new_subject = "AUTDIV Subject ID-" + uid
-        self.new_description = "new title change by AUTDIV,API level {}, from device model {} with unique id {} at {}".format(
+        self.new_description = "new title change by AUTDIV,API level {},on device model {} with unique id {} at {}".format(
             self.appium_driver.capabilities['deviceApiLevel'], self.appium_driver.capabilities['deviceModel'], uid,
             datetime.datetime.now().strftime(
                 "%I:%M%p on %B %d, %Y"))
