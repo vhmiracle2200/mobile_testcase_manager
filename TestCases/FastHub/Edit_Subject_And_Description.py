@@ -3,8 +3,8 @@ import os
 import uuid
 
 from Macros.FastHub.FastHub_Edit_Subject_Body import EditSubjectAndBody
-from Macros.FastHub.FastHub_login_basic_authentication import LoginBasicAuthentication
-from Macros.FastHub.FastHub_logout import Logout
+from Macros.FastHub.FastHub_Login_Basic_Authentication import LoginBasicAuthentication
+from Macros.FastHub.FastHub_Logout import Logout
 from Macros.FastHub.Interfaces import TestScenarios
 from appium import webdriver
 
