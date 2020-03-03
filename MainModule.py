@@ -2,8 +2,8 @@
 Main file is using to init and running scripts
 
 '''
-from TestCases.FastHub.EditSubjectAndDescription import EditSubjectAndDescription
-from TestCases.FastHub.SignInBasicAuthentication import SignInBasicAuthentication
+from TestCases.FastHub.Edit_Subject_And_Description import EditSubjectAndDescription
+from TestCases.FastHub.SignIn_Basic_Authentication import SignInBasicAuthentication
 
 
 if __name__ == '__main__':
