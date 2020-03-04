@@ -10,8 +10,8 @@ if __name__ == '__main__':
     Main module is first state that we are instantiate all Test Case scenarios.
     '''
 
-    adb_device_name = 'R58M575Q2AW'
-    remote_url = 'http://0.0.0.0:4723/wd/hub'
+    adb_device_name = 'R58M575Q2AW'                       # <-------- put your ID device here
+    remote_url = 'http://0.0.0.0:4723/wd/hub'             # do not change if you use local appium server
     testcase_scenarios = [SignInBasicAuthentication(adb_device_name, remote_url),
                           EditSubjectAndDescription(adb_device_name, remote_url)]
     for scenario in testcase_scenarios:
