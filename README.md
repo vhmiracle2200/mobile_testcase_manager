@@ -3,7 +3,7 @@ test automation system
 
 created by Ali Rahimi.
 
-after cloning,create virtualenv, install requirements packages,after that you need to download appium server and start onlocal system, then using python3 to start MainModule.py and running test scenarios.
+after cloning,create virtualenv, install requirements packages,after that you need to download appium server and start on localhost system, then using python3 to start MainModule.py and running test scenarios.
 
 
 ** if you are using than one adb devices ,so dont forgot to change device name in Desired capabilities in Scenarios **
